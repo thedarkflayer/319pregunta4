@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSitepregunta4", "http://localhost:25763", "{E23CEEA4-BB96-446F-A68E-C5B0E9400546}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{ab6dac14-dfcd-49ea-af55-02aa0e3998b9}|Library1fibonacci.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_25763"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\WebSitepregunta4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_25763\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_25763"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\WebSitepregunta4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_25763\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\WebSitepregunta4\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Library1fibonacci", "Library1fibonacci\Library1fibonacci.fsproj", "{AB6DAC14-DFCD-49EA-AF55-02AA0E3998B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23CEEA4-BB96-446F-A68E-C5B0E9400546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23CEEA4-BB96-446F-A68E-C5B0E9400546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23CEEA4-BB96-446F-A68E-C5B0E9400546}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23CEEA4-BB96-446F-A68E-C5B0E9400546}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AB6DAC14-DFCD-49EA-AF55-02AA0E3998B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6DAC14-DFCD-49EA-AF55-02AA0E3998B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6DAC14-DFCD-49EA-AF55-02AA0E3998B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6DAC14-DFCD-49EA-AF55-02AA0E3998B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
